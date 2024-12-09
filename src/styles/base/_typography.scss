@@ -1,0 +1,47 @@
+// Headings
+.heading {
+  &-1 {
+    @include platform-text('ios', $heading-1-size, $heading-1-line-height, 700, $color-primary, $font-family-headings);
+  }
+  &-2 {
+    @include platform-text('ios', $heading-2-size, $heading-2-line-height, 700, $color-primary, $font-family-headings);
+  }
+  &-3 {
+    @include platform-text('ios', $heading-3-size, $heading-3-line-height, 700, $color-secondary, $font-family-headings);
+  }
+  &-4 {
+    @include platform-text('ios', $heading-4-size, $heading-4-line-height, 700, $color-primary, $font-family-headings);
+  }
+  &-5 {
+    @include platform-text('ios', $heading-5-size, $heading-5-line-height, 700, $color-primary, $font-family-headings);
+  }
+  &-6 {
+    @include platform-text('ios', $heading-6-size, $heading-6-line-height, 700, $color-primary, $font-family-headings);
+  }
+}
+
+// iOS Body Text
+.ios {
+  &-title-1 {
+    @include platform-text('ios', $body-2-size, $body-2-line-height, 400);
+  }
+  &-title-2 {
+    @include platform-text('ios', $body-3-size, $body-3-line-height, 400);
+  }
+  &-body-1 {
+    @include platform-text('ios', $body-1-size, $body-1-line-height, 400);
+  }
+}
+
+// Android Body Text
+.android {
+  &-title-1 {
+    @include platform-text('android', $body-2-size, $body-2-line-height, 400);
+  }
+  &-body-1 {
+    @include platform-text('android', $body-1-size, $body-1-line-height, 400);
+  }
+  &-body-2 {
+    @include platform-text('android', $body-2-size, $body-2-line-height, 400);
+  }
+}

@@ -1,0 +1,15 @@
+@import "primeicons/primeicons.css";
+
+//Abstracts
+@import "abstracts/_variables.scss";
+@import "abstracts/_mixins.scss";
+@import "abstracts/_functions.scss";
+
+//Functions
+@import "base/_typography.scss";
+@import "base/_fonts.scss";
+@import "base/_global.scss";
+
+//Vendors
+@import "vendors/prime-ng/_button-overrides.scss";
+@import "vendors/prime-ng/_menu-overrides.scss";

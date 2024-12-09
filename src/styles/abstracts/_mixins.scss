@@ -1,0 +1,15 @@
+// Mixin for typography
+@mixin platform-text(
+  $platform: 'ios',
+  $size,
+  $line-height,
+  $font-weight: 400,
+  $color: $color-primary,
+  $font-family: null
+) {
+  font-family: if($font-family, $font-family, if($platform == 'ios', $font-family-ios, $font-family-android));
+  font-size: px-to-rem($size);
+  line-height: px-to-rem($line-height);
+  font-weight: $font-weight;
+  color: $color;
+}

@@ -1,0 +1,16 @@
+//Button
+.p-button:not(.p-button-text) {
+  color: $primary-black;
+  background: $primary-green;
+  border-color: $primary-green;
+  padding: px-to-rem(16px) px-to-rem(40px);
+
+  &:hover {
+    background: $primary-green-hover;
+    border-color: $primary-green-hover;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}

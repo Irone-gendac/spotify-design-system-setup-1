@@ -1,0 +1,13 @@
+
+// Global Reset and Base Styles
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family-ios; // Default font-family
+  color: $color-primary;
+  background-color: $primary-black;
+  font-size: 16px; // Base font size
+  line-height: 1.5;
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+<div class="library-wrapper">
+  <div class="heading-1">Component Library</div>
+  <div>
+    <p-button label="Button Normal" [rounded]="true"  />
+    <p-button label="Button Disabled" [rounded]="true" [disabled]="true" />
+  </div>
+
+  <div class="card flex justify-content-center">
+    <p-menu #menu [model]="items" [popup]="true" />
+    <p-button label="Context Menu" (onClick)="menu.toggle($event)" [rounded]="true"  />
+  </div>
+</div>

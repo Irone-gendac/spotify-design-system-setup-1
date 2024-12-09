@@ -1,0 +1,31 @@
+// Menu
+.p-menu.p-menu-overlay {
+  background: $context-menu-grey-bg;
+  color: $primary-white;
+
+  .p-submenu-header {
+    background: inherit;
+  }
+
+  .p-component {
+    padding: px-to-rem(10px) px-to-rem(16px);
+  }
+
+  .p-menuitem-link {
+    color: $primary-white;
+    padding: px-to-rem(10px) px-to-rem(16px);
+
+    .p-menuitem-icon {
+      color: inherit;
+    }
+
+    .p-menuitem-text {
+      color: inherit;
+      font: inherit;
+    }
+  }
+
+  .p-menuitem-content:hover {
+    background: inherit;
+  }
+}
